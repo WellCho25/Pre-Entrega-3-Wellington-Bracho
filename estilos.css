@@ -28,17 +28,6 @@
   color: grey !important;
 }
 
-.jumbotron {
-  height: 400px;
-  /* width: 100vw; */
-  /* border: 2px solid blueviolet; */
-  background-image: url(./imag/sever-gb2018909a_1280.jpg);
-  background-position: center;
-  background-size: cover;
-  /* border-radius: none !important; */
-  /* filter: brightness(80%); */
-}
-
 .nos {
   height: 400px;
   width: 100%;
@@ -50,15 +39,6 @@
   background-size: cover;
   /* border-radius: none !important; */
   /* filter: brightness(80%); */
-}
-
-.titulo {
-  border: 2px solid aqua;
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.6431372549);
-  /* filter: opacity(50%); */
-  width: 500px;
-  text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white;
 }
 
 .titulo_nos {
@@ -88,7 +68,28 @@
   font-weight: bold;
 }
 
-.titulo a {
+h2 {
+  height: 50px;
+  padding-top: 3px;
+  margin-bottom: 0;
+}
+
+.ban_index {
+  height: 400px;
+  background-image: url(./imag/sever-gb2018909a_1280.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.titulo_index {
+  border: 2px solid aqua;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6431372549);
+  width: 500px;
+  text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white;
+}
+
+.titulo_index a {
   padding-bottom: 5px;
   margin: 10px;
   margin-left: 150px;
@@ -96,22 +97,15 @@
   background-color: #fff;
   color: blue;
   font-weight: bold;
-  /* width: 100px; */
+  /* width: 100px */
   text-decoration: none;
   display: flex;
   justify-content: center;
   border-radius: 10px;
-  /* text-shadow: 0 0 2px black; */
 }
 
-.titulo a:hover {
+.titulo_index a:hover {
   color: rgb(190, 190, 190) !important;
-}
-
-h2 {
-  height: 50px;
-  padding-top: 3px;
-  margin-bottom: 0;
 }
 
 .sec_s {
@@ -130,23 +124,6 @@ h2 {
   color: grey;
 }
 
-.sec_n {
-  text-align: center;
-  background-color: rgb(255, 255, 255);
-  border: 4px 0px solid aqua;
-}
-
-.sec_n a {
-  text-decoration: none;
-  color: blue;
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.sec_n a:hover {
-  color: grey;
-}
-
 .ser {
   background-color: rgba(127, 232, 255, 0.584);
   background-image: url("./imag/matrix.png");
@@ -155,10 +132,10 @@ h2 {
 }
 
 .ser img {
-  height: 400px;
+  height: auto;
   width: 100%;
   background-size: cover;
-  border-radius: 100px 0 100px;
+  border-radius: 50px 0 50px;
   border: 2px solid aqua;
   margin-top: 10px;
   filter: grayscale(50%);
@@ -181,6 +158,63 @@ h2 {
   text-shadow: 0 0 3px black;
 }
 
+.sec_p {
+  /* border: 2px solid red */
+  padding: 0;
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.sec_p a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.sec_p a:hover {
+  color: grey;
+}
+
+.car {
+  background-image: url(./imag/linea_libre.jpg);
+  background-size: cover;
+}
+
+.carousel {
+  height: 700px;
+}
+
+.carousel-item {
+  height: 700px;
+}
+
+.carousel-caption {
+  text-shadow: 0 0 5px black;
+  background-color: rgba(127, 138, 255, 0.412);
+  border: 2px solid aqua;
+  color: #fff !important;
+  margin: 30px;
+  border-radius: 20px;
+}
+
+.sec_n {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border: 4px 0px solid aqua;
+}
+
+.sec_n a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+.sec_n a:hover {
+  color: grey;
+}
+
 .sec_h {
   background-image: url(./imag/blur-3280300_1280.jpg);
   background-size: cover;
@@ -193,7 +227,7 @@ h2 {
 
 .logo_nos img:hover {
   transform: translate(280px, 0px);
-  /* transition: width 2s; */
+  /* transition: width 2s */
   transition-timing-function: cubic-bezier(0, 1.02, 1, -0.01);
 }
 
@@ -218,55 +252,19 @@ h2 {
   border-radius: 0px 0px 40px 0px;
 }
 
+.text_h:hover {
+  transform: scale(1.01);
+  transition: 0.5s;
+}
+
 .text_h h4 {
   text-shadow: 0 0 2px white;
 }
 
 .text_h p {
   font-weight: normal;
-  color: grey;
+  color: white;
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black;
-}
-
-.sec_p {
-  /* border: 2px solid red; */
-  padding: 0;
-  text-align: center;
-  background-color: rgb(255, 255, 255);
-}
-
-.sec_p a {
-  text-decoration: none;
-  color: blue;
-  font-weight: bold;
-  font-size: 30px;
-}
-
-.sec_p a:hover {
-  color: grey;
-}
-
-.car {
-  /* background-color: rgb(50, 142, 255); */
-  background-image: url(./imag/linea_libre.jpg);
-  background-size: cover;
-}
-
-.carousel {
-  height: 700px;
-}
-
-.carousel-item {
-  height: 700px;
-}
-
-.carousel-caption {
-  text-shadow: 0 0 5px black;
-  background-color: rgba(127, 138, 255, 0.412);
-  border: 2px solid aqua;
-  color: #fff !important;
-  margin: 30px;
-  border-radius: 20px;
 }
 
 .sec_n {
@@ -294,11 +292,11 @@ h2 {
   display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(7, 100px);
-  /* border: 2px solid blue; */
+  /* border: 2px solid blue */
 }
 
 .area {
-  /* border: 2px solid green; */
+  /* border: 2px solid green */
   padding-top: 25px;
   color: blue;
   font-size: bold;
@@ -317,7 +315,7 @@ h2 {
 .area1 {
   color: aqua;
   font-size: bold;
-  /* text-shadow: 0 2px 0 white, 0 2px 0 black; */
+  /* text-shadow: 0 2px 0 white, 0 2px 0 black */
 }
 
 .area3 {
@@ -339,10 +337,6 @@ h2 {
   text-align: justify;
 }
 
-/* .separacion {
-    height: 10px;
-    background-color: aqua;
-} */
 footer {
   background-color: aqua;
   color: blue;
@@ -463,9 +457,8 @@ footer i {
     padding-top: 30px !important;
   }
   .logo_nos img:hover {
-    transform: translate(0px, 350px);
-    /* transition: width 2s */
-    transition-timing-function: cubic-bezier(0, 1.02, 1, -0.01);
+    transform: translate(0px, 300px);
+    transition-timing-function: cubic-bezier(0, 1.01, 1, -0.01);
   }
 }
 @media only screen and (min-width: 920px) and (max-width: 1024px) {
@@ -588,6 +581,4 @@ footer i {
     margin: 10% 20%;
     padding-top: 40px;
   }
-}
-
-/*# sourceMappingURL=estilos.css.map */
+}/*# sourceMappingURL=estilos.css.map */

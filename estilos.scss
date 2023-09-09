@@ -22,16 +22,6 @@
 .navbar a:hover {
     color: grey !important;
 }
-.jumbotron{
-    height: 400px;
-    /* width: 100vw; */
-    /* border: 2px solid blueviolet; */
-    background-image: url(./imag/sever-gb2018909a_1280.jpg);
-    background-position: center;
-    background-size: cover;
-    /* border-radius: none !important; */
-    /* filter: brightness(80%); */
-}
 .nos{
     height: 400px;
     width: 100%;
@@ -43,14 +33,6 @@
     background-size: cover;
     /* border-radius: none !important; */
     /* filter: brightness(80%); */
-}
-.titulo{
-    border: 2px solid aqua;
-    border-radius: 5px;
-    background-color: #ffffffa4;
-    /* filter: opacity(50%); */
-    width: 500px;
-    text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white;
 }
 .titulo_nos{
     border: 2px solid aqua;
@@ -76,220 +58,13 @@
     padding-right: 30px;
     font-weight: bold;
 }
-.titulo a{
-    padding-bottom: 5px;
-    margin: 10px;
-    margin-left: 150px;
-    margin-right: 150px;
-    background-color: #fff;
-    color: blue;
-    font-weight: bold;
-    /* width: 100px; */
-    text-decoration: none;
-    display: flex;
-    justify-content: center;
-    border-radius: 10px;
-    /* text-shadow: 0 0 2px black; */
-}
-.titulo a:hover{
-    color: rgb(190, 190, 190) !important;
-}
 h2 {
     height: 50px;
     padding-top: 3px;
     margin-bottom: 0;
 }
-.sec_s {
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-}
-.sec_s a{
-    text-decoration: none;
-    color: blue;
-    font-weight: bold;
-    font-size: 30px;
-}
-.sec_s a:hover {
-    color: grey;
-}
-.sec_n {
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-    border: 4px 0px solid aqua;
-}
-.sec_n a{
-    text-decoration: none;
-    color: blue;
-    font-weight: bold;
-    font-size: 30px;
-}
-.sec_n a:hover {
-    color: grey;
-}
-.ser{
-    background-color: rgba(127, 232, 255, 0.584);
-    background-image: url("./imag/matrix.png");
-    background-attachment: fixed;
-    background-size: cover;
-}
-.ser img{
-    height: 400px;
-    width: 100%;
-    background-size: cover;
-    border-radius: 100px 0 100px;
-    border: 2px solid aqua;
-    margin-top: 10px;
-    filter: grayscale(50%);
-}
-.ser img:hover{
-    transform: scale(0.97);
-    filter: grayscale(0%);
-}
-.ser h3{
-    text-align: center;
-    color: #fff;
-    text-shadow: 0 0 3px black;
-}
-.ser p{
-    text-align: center;
-    color: #fff;
-    text-shadow: 0 0 3px black;
-}
-.sec_h{
-    background-image: url(./imag/blur-3280300_1280.jpg);
-    background-size: cover;
-    background-attachment: fixed;
-}
-.logo_nos img{
-    height: 30vw;
-}
-.logo_nos img:hover{
-    transform: translate(280px,0px);
-    /* transition: width 2s; */
-    transition-timing-function: cubic-bezier(0,1.02,1,-0.01);
-}
-.historia {
-    padding-top: 80px;
-    padding-bottom: 10px;
-    background-color: #ffffff58;
-    color: blue;
-    font-size: 20px;
-    font-weight: bold;
-}
-.historia h4{
-    padding-left: 30px;
-}
-.text_h {
-    padding: 0px 20px;
-    border: 2px solid #ffffff00;
-    border-right: 2px solid white;
-    border-bottom: 5px solid white;
-    border-radius: 0px 0px 40px 0px;
-}
-.text_h h4{
-    text-shadow: 0 0 2px white;
-}
-.text_h p{
-    font-weight: normal;
-    color: grey;
-    text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black;
-}
-.sec_p {
-    /* border: 2px solid red; */
-    padding: 0;
-    text-align: center;
-    background-color: rgb(255, 255, 255);
-}
-.sec_p a{
-    text-decoration: none;
-    color: blue;
-    font-weight: bold;
-    font-size: 30px;
-}
-.sec_p a:hover {
-    color: grey;
-}
-.car {
-    /* background-color: rgb(50, 142, 255); */
-    background-image: url(./imag/linea_libre.jpg);
-    background-size: cover;
-} 
-.carousel{
-    height: 700px;
-}
-.carousel-item{
-    height: 700px;
-}
-.carousel-caption {
-    text-shadow: 0 0 5px black;
-    background-color: rgba(127, 138, 255, 0.412);
-    border: 2px solid aqua;
-    color: #fff !important;
-    margin: 30px;
-    border-radius: 20px;
-}
-.sec_n{
-    border-bottom: 2px solid blue;
-}
-.sec_nos_en{
-    margin: 20px;
-}
-.sec_en{
-    border-left: 10px solid aqua;
-    border-bottom: 2px solid aqua;
-    background-color: rgba(43, 117, 166, 0.214);
-    margin-bottom: 20px;
-}
-.sec_en:hover{
-    transform: scale(1.01);
-}
-.grip_areas{
-    padding-right: 10px;
-    margin: 0;
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: repeat(7, 100px);
-    /* border: 2px solid blue; */
-}
-.area{
-    /* border: 2px solid green; */
-    padding-top: 25px;
-    color: blue;
-    font-size: bold;
-    text-shadow: 0 2px 2px white;
-}
-.ar_t{
-    background-color: white;
-    border: 10px solid aqua;
-    border-style: groove;
-    border-radius: 50%;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-.area1{
-    color: aqua;
-    font-size: bold;
-    /* text-shadow: 0 2px 0 white, 0 2px 0 black; */
-}
-.area3{
-    padding: 0;
-    text-align: justify;
-}
-.area4{
-    padding: 10px;
-}
-.area5{
-    padding: 0;
-    text-align: justify;
-}
-.area7{
-    padding: 0;
-    text-align: justify;
-}
-/* .separacion {
-    height: 10px;
-    background-color: aqua;
-} */
+@import "_index.sass";
+@import "_nosotros.sass";
 footer{
     background-color: aqua;
     color: blue;

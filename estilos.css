@@ -28,34 +28,10 @@
   color: grey !important;
 }
 
-.nos {
-  height: 400px;
-  width: 100%;
-  display: flex;
-  justify-content: flex-end;
-  /* border: 2px solid blueviolet; */
-  background-image: url(./imag/equipo.jpg);
-  background-position: center;
-  background-size: cover;
-  /* border-radius: none !important; */
-  /* filter: brightness(80%); */
-}
-
-.titulo_nos {
-  border: 2px solid aqua;
-  border-radius: 5px;
-  background-color: rgba(255, 255, 255, 0.6431372549);
-  /* filter: opacity(50%); */
-  width: 500px;
-  text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white;
-  margin-bottom: 200px;
-}
-
 #titulo {
   padding-left: 20px;
   color: blue;
 }
-
 #titulo span {
   color: rgb(92, 92, 92);
 }
@@ -88,7 +64,6 @@ h2 {
   width: 500px;
   text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white;
 }
-
 .titulo_index a {
   padding-bottom: 5px;
   margin: 10px;
@@ -103,7 +78,6 @@ h2 {
   justify-content: center;
   border-radius: 10px;
 }
-
 .titulo_index a:hover {
   color: rgb(190, 190, 190) !important;
 }
@@ -112,14 +86,12 @@ h2 {
   text-align: center;
   background-color: rgb(255, 255, 255);
 }
-
 .sec_s a {
   text-decoration: none;
   color: blue;
   font-weight: bold;
   font-size: 30px;
 }
-
 .sec_s a:hover {
   color: grey;
 }
@@ -130,7 +102,6 @@ h2 {
   background-attachment: fixed;
   background-size: cover;
 }
-
 .ser img {
   height: auto;
   width: 100%;
@@ -140,18 +111,15 @@ h2 {
   margin-top: 10px;
   filter: grayscale(50%);
 }
-
 .ser img:hover {
   transform: scale(0.97);
   filter: grayscale(0%);
 }
-
 .ser h3 {
   text-align: center;
   color: #fff;
   text-shadow: 0 0 3px black;
 }
-
 .ser p {
   text-align: center;
   color: #fff;
@@ -159,19 +127,16 @@ h2 {
 }
 
 .sec_p {
-  /* border: 2px solid red */
   padding: 0;
   text-align: center;
   background-color: rgb(255, 255, 255);
 }
-
 .sec_p a {
   text-decoration: none;
   color: blue;
   font-weight: bold;
   font-size: 30px;
 }
-
 .sec_p a:hover {
   color: grey;
 }
@@ -198,19 +163,40 @@ h2 {
   border-radius: 20px;
 }
 
+.nos {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  /* border: 2px solid blueviolet */
+  background-image: url(./imag/equipo.jpg);
+  background-position: center;
+  background-size: cover;
+  /* border-radius: none !important */
+  /* filter: brightness(80%) */
+}
+
+.titulo_nos {
+  border: 2px solid aqua;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6431372549);
+  /* filter: opacity(50%) */
+  width: 500px;
+  text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white;
+  margin-bottom: 200px;
+}
+
 .sec_n {
   text-align: center;
   background-color: rgb(255, 255, 255);
   border: 4px 0px solid aqua;
 }
-
 .sec_n a {
   text-decoration: none;
   color: blue;
   font-weight: bold;
   font-size: 30px;
 }
-
 .sec_n a:hover {
   color: grey;
 }
@@ -224,10 +210,8 @@ h2 {
 .logo_nos img {
   height: 30vw;
 }
-
-.logo_nos img:hover {
+.logo_nos img img:hover {
   transform: translate(280px, 0px);
-  /* transition: width 2s */
   transition-timing-function: cubic-bezier(0, 1.02, 1, -0.01);
 }
 
@@ -239,7 +223,6 @@ h2 {
   font-size: 20px;
   font-weight: bold;
 }
-
 .historia h4 {
   padding-left: 30px;
 }
@@ -251,20 +234,18 @@ h2 {
   border-bottom: 5px solid white;
   border-radius: 0px 0px 40px 0px;
 }
-
-.text_h:hover {
-  transform: scale(1.01);
-  transition: 0.5s;
-}
-
 .text_h h4 {
   text-shadow: 0 0 2px white;
 }
-
 .text_h p {
   font-weight: normal;
   color: white;
   text-shadow: 0 0 2px black, 0 0 2px black, 0 0 2px black;
+}
+
+.text_h:hover {
+  transform: scale(1.01);
+  transition: 0.5s;
 }
 
 .sec_n {
@@ -337,6 +318,83 @@ h2 {
   text-align: justify;
 }
 
+.serv {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  /* border: 2px solid blueviolet */
+  background-image: url(./imag/pexels-fauxels-3183183.jpg);
+  background-position: center;
+  background-size: cover;
+  /* border-radius: none !important */
+  /* filter: brightness(80%) */
+}
+
+.titulo_ser {
+  border: 2px solid aqua;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6431372549);
+  /* filter: opacity(50%) */
+  width: 500px;
+  text-shadow: 0 0 10px white, 0 0 10px white, 0 0 10px white;
+  margin-bottom: 200px;
+}
+
+.sec_c {
+  text-align: center;
+  background-color: rgb(255, 255, 255);
+  border: 4px 0px solid aqua;
+}
+.sec_c a {
+  text-decoration: none;
+  color: blue;
+  font-weight: bold;
+  font-size: 30px;
+}
+.sec_c a:hover {
+  color: grey;
+}
+
+.s_n_s {
+  background-size: cover;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.4941176471) 29%, rgba(0, 255, 255, 0.4941176471) 100%), url(./imag/burbujas.jpg);
+}
+.s_n_s img {
+  height: 250px;
+  margin: 20px 0 20px 0;
+  margin-left: 50px;
+  border-radius: 10px 30%;
+  box-shadow: 0 0px 1px 5px white;
+  box-sizing: border-box;
+  display: block;
+  animation-name: cambio;
+  animation-duration: 5s;
+  animation-iteration-count: 2;
+  animation-timing-function: ease-in;
+}
+.s_n_s h3 {
+  color: aqua;
+  text-shadow: 1px 1px 2px black;
+}
+.s_n_s p {
+  padding-top: 50px;
+  padding-right: 50px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+@keyframes cambio {
+  0% {
+    opacity: 100%;
+  }
+  50% {
+    opacity: 0%;
+  }
+  100% {
+    opacity: 100%;
+  }
+}
 footer {
   background-color: aqua;
   color: blue;
@@ -344,11 +402,9 @@ footer {
   font-size: 20px;
   padding: 20px;
 }
-
 footer p {
   margin-bottom: 20px;
 }
-
 footer i {
   color: grey;
   font-size: 50px;

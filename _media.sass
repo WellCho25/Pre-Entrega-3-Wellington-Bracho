@@ -3,6 +3,11 @@ $border_style_area: groove
 $padding_top_area: 50px
 $margin_general_area: 0px
 $margin_local_area: 20px 0px
+$margin_2_areas: 20px 10px
+$padding_d: 8%
+$padding_d_b: 0px 30px
+
+
 @media only screen and (min-width:0) and (max-width:576px)
     .navbar-collapse
         background-color: white
@@ -20,54 +25,38 @@ $margin_local_area: 20px 0px
         grid-template-columns: repeat(3,33%)
         grid-template-rows: repeat(4,200px)
     .area1
-        border: $border_area
-        border-style: $border_style_area
         grid-column: 1/4
         grid-row: 1/2
-        padding-top: $padding_top_area
-        margin: $margin_general_area
         margin: 30px 40% !important
     .area2
-        border: 10px solid aqua
-        border-style: groove
         grid-column: 1/2
         grid-row: 2/3
-        padding-top: 50px
-        margin: 0px
-        margin: 20px 0px
     .area3
         grid-column: 1/2
         grid-row: 3/5
-        padding-top: 8%
-        padding: 0px 30px
     .area4
-        border: 10px solid aqua
-        border-style: groove
         grid-column: 2/3
         grid-row: 2/3
         padding-top: 40px
-        margin: 0px
-        margin: 20px 0px
     .area5
         grid-column: 2/3
         grid-row: 3/5
-        padding-top: 8%
-        padding: 0px 30px
     .area6
-        border: 10px solid aqua
-        border-style: groove
         grid-column: 3/4
         grid-row: 2/3
-        padding-top: 50px
-        margin: 0px
-        margin: 20px 0px
     .area7
         grid-column: 3/4
         grid-row: 3/5
-        padding-top: 8%
-        padding: 0px 30px
     .ar_t
         margin: 10% 10%
+        border: $border_area
+        border-style: $border_style_area
+        padding-top: $padding_top_area
+        margin: $margin_general_area
+        margin: $margin_local_area
+    .ar_d
+        padding-top: $padding_d
+        padding: $padding_d_b
 @media only screen and (min-width:768px)
     .logo_nos img
         padding-top: 1vw
@@ -83,66 +72,50 @@ $margin_local_area: 20px 0px
         grid-template-columns: repeat(4,25%)
         grid-template-rows: repeat(3,200px)
     .area1
-        border: 10px solid aqua
-        border-style: groove
         grid-column: 1/2
         grid-row: 2/3
-        padding-top: 50px
-        margin: 0px
-        margin: 20px 10px
     .area2
-        border: 10px solid aqua
-        border-style: groove
         grid-column: 2/3
         grid-row: 1/2
-        padding-top: 50px
-        margin: 0px
-        margin: 20px 0px
+        margin: $margin_local_area
     .area3
         grid-column: 3/5
         grid-row: 1/2
-        padding-top: 8%
     .area4
-        border: 10px solid aqua
-        border-style: groove
         grid-column: 2/3
         grid-row: 2/3
         padding-top: 40px
-        margin: 0px
-        margin: 20px 0px
+        margin: $margin_local_area
     .area5
         grid-column: 3/5
         grid-row: 2/3
-        padding-top: 8%
     .area6
-        border: 10px solid aqua
-        border-style: groove
         grid-column: 2/3
         grid-row: 3/4
-        padding-top: 50px
-        margin: 0px
-        margin: 20px 0px
+        margin: $margin_local_area
     .area7
         grid-column: 3/5
         grid-row: 3/4
-        padding-top: 8%
     .ar_t
         margin: 10% 10%
+        border: $border_area
+        border-style: $border_style_area
+        padding-top: $padding_top_area
+        margin: $margin_general_area
+        margin: $margin_2_areas
+    .ar_d
+        padding-top: $padding_d
 @media only screen and (min-width:1024px)
     .grip_areas
         grid-template-columns: repeat(4,25%)
         grid-template-rows: repeat(3,200px)
     .area1
-        border: 10px solid aqua
-        border-style: groove
         grid-column: 1/2
         grid-row: 2/3
         padding-top: 40px
         margin: 0px
         margin: 20px 0px
     .area2
-        border: 10px solid aqua
-        border-style: groove
         grid-column: 2/3
         grid-row: 1/2
         padding-top: 50px
@@ -153,8 +126,6 @@ $margin_local_area: 20px 0px
         grid-row: 1/2
         padding-top: 8%
     .area4
-        border: 10px solid aqua
-        border-style: groove
         grid-column: 2/3
         grid-row: 2/3
         padding-top: 30px !important
@@ -165,8 +136,6 @@ $margin_local_area: 20px 0px
         grid-row: 2/3
         padding-top: 8%
     .area6
-        border: 10px solid aqua
-        border-style: groove
         grid-column: 2/3
         grid-row: 3/4
         padding-top: 50px
@@ -179,3 +148,5 @@ $margin_local_area: 20px 0px
     .ar_t
         margin: 10% 20%
         padding-top: 40px
+        border: $border_area
+        border-style: $border_style_area

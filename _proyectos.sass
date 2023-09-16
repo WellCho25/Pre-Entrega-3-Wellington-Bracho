@@ -45,5 +45,17 @@
         width: 100%
         object-fit: cover
         border: 10px solid white
+        animation-name: inicio
+        animation-duration: 2s
+        animation-iteration-count: 1
+        animation-timing-function: ease-in
     img:hover
         transform: scale(1.05)
+@keyframes inicio
+    0%
+        opacity: 0%
+    50%
+        transform: scale(1.05) 
+    100%
+        opacity: 100%
+        transform: scale(1)
